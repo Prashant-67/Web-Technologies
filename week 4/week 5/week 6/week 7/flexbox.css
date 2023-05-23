@@ -1,0 +1,31 @@
+.flex{
+    width: 100%;
+    background-color: darkgray;
+    border: 3px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content:center;
+}
+.box{
+    width: 300px;
+    height: 300px;
+}
+.box1{
+    background-color:aquamarine;
+}
+.box2{
+    background-color: blanchedalmond;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: violet;
+}
+.box5{
+    background-color: steelblue;
+}
+.box6{
+    background-color: slateblue;
+}

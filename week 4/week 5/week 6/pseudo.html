@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        h1{
+            background-color: darkcyan;
+            color:black;
+            font-size: 30px;
+            text-transform: uppercase;
+            word-spacing: 4px;
+        }
+        h1:hover{
+            font-size: 60px;
+        }
+        p{
+            background-color: bisque;
+            color: black;
+            font-size: 30px;
+            text-transform: lowercase;
+            word-spacing: 4px;
+        }
+        a:visited{
+            color:blueviolet;
+
+        }
+        input:checked{
+            outline: 2px dotted burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Classes </h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores perspiciatis, vero porro architecto inventore esse consectetur corrupti eos harum dolor accusantium cum eaque iusto nisi nobis illum recusandae ipsum. Sequi!</p>
+    <a href="inline.html">Link</a>
+    <form>
+        <p>Which programming language do you like </p>
+        <label><input name="origin" type="radio"
+            value="html" checked>html</label>
+            <label><input name="origin" type="radio"
+                value="CSS" checked>CSS</label>
+                <label><input name="origin" type="radio"
+                    value="Javascript" checked>Javascript</label>
+    </form>
+</body>
+</html>
